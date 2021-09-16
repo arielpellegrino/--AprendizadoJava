@@ -1,4 +1,4 @@
-public class MatFunctions {
+/*public class MatFunctions {
 
     /* A= Math.sqrt(x); = Variavel A recebe a raiz quadrada de x
     /*  A= Math.pow(y, x); Variavel A recebe o resultado de x elevado a y
@@ -40,11 +40,14 @@ public class MatFunctions {
         System.out.println("Valor absoluto de " + y + " = " + A);
         System.out.println("Valor absoluto de " + z + " = " + B);
 
-*/
-        derrlta = Math.pow(b, 2.0) - 4*a*c;
+*//*
+        public static void main(String[] args){
+
+        delta = Math.pow(b, 2.0) - 4*a*c;
 
         x1 = (-b + Math.sqrt(delta)) / (2.0 * a);
         x2 = (-b - Math.sqrt(delta)) / (2.0 * a);
     }
 
 }
+*/
