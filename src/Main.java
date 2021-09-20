@@ -1,43 +1,65 @@
 import java.util.Locale;
+import java.util.Scanner;
 
 public class Main {
 
-	public static void main(String[] args) {
+	/*public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		int x = sc.nextInt();
+		String dia;
+		if (x == 1) {
+			dia = "domingo";
+		} else if (x == 2) {
+			dia = "segunda";
+		} else if (x == 3) {
+			dia = "terca";
+		} else if (x == 4) {
+			dia = "quarta";
+		} else if (x == 5) {
+			dia = "quinta";
+		} else if (x == 6) {
+			dia = "sexta";
+		} else if (x == 7) {
+			dia = "sabado";
+		} else {
+			dia = "valor invalido";
+		}
+		System.out.println("Dia da semana: " + dia);
+		sc.close();
+*/
+		public static void main(String[] args) {
+			Scanner sc = new Scanner(System.in);
+			int x = sc.nextInt();
+			String dia;
+			switch (x) {
+				case 1:
+					dia = "domingo";
+					break;
+				case 2:
+					dia = "segunda";
+					break;
+				case 3:
+					dia = "terca";
+					break;
+				case 4:
+					dia = "quarta";
+					break;
+				case 5:
+					dia = "quinta";
+					break;
+				case 6:
+					dia = "sexta";
+					break;
+				case 7:
+					dia = "sabado";
+					break;
+				default:
+					dia = "valor invalido";
+					break;
+			}
+			System.out.println("Dia da semana: " + dia);
+			sc.close();
 
-	String product1 = "Computer";
-	String product2 = "Office Desk";
-	
-	int age = 28;
-	int code = 5290;
-	char gender = 'F';
-	
-	double price1 = 2100.0;
-	double price2 = 650.50;
-	double measure = 53.234567;
-	
-//		Locale.setDefault(Locale.US);
-	
-		
-	System.out.println("Products:");
-	System.out.printf("%s, which price is $ %.2f %n", product1, price1);
-	System.out.printf("%s, witch price is $ %.2f %n %n", product2, price2);
-	System.out.printf("Record: %d yeard old, code %d and gender: %c %n", age, code, gender);
-	System.out.printf("Measue with eight decimal places: %.8f %n", measure);
-	System.out.printf("Rouded (Three decimal places): %.3f %n", measure);
-	
-	Locale.setDefault(Locale.US);
-	
-	System.out.printf("US Decimal point: %.3f", measure);
-	
-		
-	// %f = ponto flutuante
-	// %d = inteiro
-	// %s = texto
-	// %n = quebra de linha 
-	// %.2f = double
-	// %c = char
-	
-	
+
 	}
-
 }
