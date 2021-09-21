@@ -5,32 +5,35 @@ public class Switchs {
         Scanner sc = new Scanner(System.in);
         int x = sc.nextInt();
         String dia;
+
         switch (x) {
             case 1:
-                dia = "domingo";
+                dia = "Domingo";
                 break;
             case 2:
-                dia = "segunda";
+                dia = "Segunda";
                 break;
             case 3:
-                dia = "terca";
+                dia = "Terça";
                 break;
             case 4:
-                dia = "quarta";
+                dia = "Quarta";
                 break;
             case 5:
-                dia = "quinta";
+                dia = "Quinta";
                 break;
             case 6:
-                dia = "sexta";
+                dia = "Sexta";
                 break;
             case 7:
-                dia = "sabado";
+                dia = "Sabado";
                 break;
             default:
-                dia = "valor invalido";
+                dia = "Valor invalido";
                 break;
+
         }
+
         System.out.println("Dia da semana: " + dia);
         sc.close();
     }
